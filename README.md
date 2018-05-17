@@ -9,3 +9,11 @@ Download mnist dataset:
 http://yann.lecun.com/exdb/mnist/
 Download input_data.py : 
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutorials/mnist/input_data.py
+
+The test accuracy：
+2018-05-16 17:14:05.465694: E tensorflow/stream_executor/cuda/cuda_driver.cc:936] failed to allocate 4.00G (4294967296 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-05-16 17:14:05.465722: W tensorflow/core/common_runtime/bfc_allocator.cc:219] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.60GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+test accuracy0.9886
+end time:  2018-05-16  17:14:06
+
+Process finished with exit code 0
